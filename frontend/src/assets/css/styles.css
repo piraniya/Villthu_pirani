@@ -1,0 +1,152 @@
+/* Base styles */
+ .customer {
+  max-width: 500px; 
+  margin: 0 auto;
+  margin-top: 25vh;
+  padding: 20px;
+}
+
+.form_container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* span {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}  */
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .customer {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  input[type="email"],
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 20px); 
+  }
+} 
+
+
+
+ /* Cart */
+
+.cart-item {
+  margin: 1.8rem 0rem;
+  padding: 0rem 0.7rem;
+}
+
+
+
+#delete_cart_item {
+  color: brown;
+  background: white;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.1rem;
+  border: none;
+}
+
+#card_item_price {
+  color: brown;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#checkout_btn,
+.review-btn {
+  background-color:brown;
+  border-color: #763B45;
+  margin-top: 2rem;
+  border-radius: 5rem;
+}
+
+#view_order_details {
+  background-color: brown;
+  border-color: brown;
+}
+
+#order_summary {
+  border: 1px solid #e3e3e3;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+}
+
+.order-summary-values {
+  float: right;
+  font-weight: bold;
+}
+
+.stockCounter input {
+  border: none;
+  width: 3rem;
+  text-align: center;
+}
+
+.plus,
+.minus {
+  padding: 0.1rem 0.5rem;
+}
+
+.stockCounter input::-webkit-outer-spin-button,
+.stockCounter input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: white;
+}
+
+/* Confirm Order */
+
+.order-confirm p,
+.order-details p {
+  margin-left: 1.5rem;
+  background-color: orange;
+}
+
+.update-btn {
+  background-color: #763B45;
+  border-color: #763B45;
+  color: white;
+}
+
+.update-btn:hover {
+  color: white;
+}

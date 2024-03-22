@@ -1,0 +1,84 @@
+/* Admin style css */
+  /* AdminDashboard.css */
+
+.wrapper {
+  display: flex;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 200%;
+  width: 250px;
+  background-color: #060413; /* Bootstrap dark background color */
+  color:#e8d8cd;
+  padding-top: 3.5rem;
+}
+
+#sidebar .sidebar-header {
+  padding: 60px;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+}
+
+#sidebar ul.components li {
+  margin-bottom: 0px;
+}
+
+#sidebar ul.components li a {
+  padding: 60px 25px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  color: #f8e4be;
+}
+
+#sidebar ul.components li a:hover {
+  background-color:#6d4a44;; /* Bootstrap dark hover color */
+}
+
+#content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.logo-img {
+  display: block;
+  margin: 0 auto;
+  width: 100px; /* Adjust width as needed */
+  border-radius: 50%; /* Make it round */
+}
+
+/* Admin plant */
+/* PlantForm.css */
+.plant-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+
+/* Create a section on the right side */
+#right-section {
+  width: 350px;
+  height: 200%;
+  background-color: #f0f0f0; /* Example background color */
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+}
