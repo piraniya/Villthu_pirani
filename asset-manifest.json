@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Villthu_pirani/static/css/main.fdf9faa3.css",
+    "main.js": "/Villthu_pirani/static/js/main.705b774b.js",
+    "static/js/453.8ab44547.chunk.js": "/Villthu_pirani/static/js/453.8ab44547.chunk.js",
+    "static/media/boxicons.svg": "/Villthu_pirani/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/hero.png": "/Villthu_pirani/static/media/hero.f878c66632dad0079ad5.png",
+    "static/media/cook.jpg": "/Villthu_pirani/static/media/cook.e211e9732dfc02ff3c7e.jpg",
+    "static/media/boxicons.eot": "/Villthu_pirani/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/Villthu_pirani/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/Villthu_pirani/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/21.webp": "/Villthu_pirani/static/media/21.65695f4c55520b91594d.webp",
+    "static/media/ghee.jpg": "/Villthu_pirani/static/media/ghee.ce3bba8a88c4313eac57.jpg",
+    "static/media/cocunt.jpg": "/Villthu_pirani/static/media/cocunt.6c3428c58fc144a9f45a.jpg",
+    "static/media/boxicons.woff2": "/Villthu_pirani/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "static/media/turmeric.jpg": "/Villthu_pirani/static/media/turmeric.2905c947c6fbcb4915c5.jpg",
+    "index.html": "/Villthu_pirani/index.html",
+    "main.fdf9faa3.css.map": "/Villthu_pirani/static/css/main.fdf9faa3.css.map",
+    "main.705b774b.js.map": "/Villthu_pirani/static/js/main.705b774b.js.map",
+    "453.8ab44547.chunk.js.map": "/Villthu_pirani/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdf9faa3.css",
+    "static/js/main.705b774b.js"
+  ]
+}
